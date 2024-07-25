@@ -28,7 +28,6 @@ class Program
             }
         }
     }
-
     static void CalculateRevenue()
     {
         Console.WriteLine("\nEnter the number of contestants in the previous year:");
@@ -39,7 +38,6 @@ class Program
         int expectedRevenue = currentYearContestants * ticketPrice;
         Console.WriteLine($"\nLast year's competition had {previousYearContestants} contestants, and this year's has {currentYearContestants} contestants");
         Console.WriteLine($"Revenue expected this year is ${expectedRevenue}");
-
         if (currentYearContestants > previousYearContestants * 2)
         {
             Console.WriteLine("The competition is more than twice as big this year!");
@@ -52,7 +50,6 @@ class Program
         {
             Console.WriteLine("A tighter race this year! Come out and cast your vote!");
         }
-
         Console.WriteLine("\n*****************************************");
         Console.WriteLine("*     The stars shine in Greenville.        *");
         Console.WriteLine("********************************************");
